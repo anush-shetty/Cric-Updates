@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cricket updates Chrome extension",
+  "description": "This extension shows cricket updates on cricbuzz",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "update_url": "http://clients2.google.com/service/update2/crx",
+    "content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+    "version": "0.1"
+}
